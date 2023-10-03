@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+     background-image: url("grey\ background.jpg");
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin-top:20px;
+}
+.header h1{
+    color:blue;
+    width:600px;
+
+}
+.header h3{
+    color:green;
+
+}
+#l1{
+    display:flex;
+    background: yellow;
+    color: black;
+}
+#l2{
+    display:flex;
+    background: green;
+    color: black;
+}
+#l3{
+    display:flex;
+    color: black;
+}
+.link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    margin-right: 30px;
+    margin-top:20px;
+} 
